@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdditionalTasks/AdditionalTasks.iml" filepath="$PROJECT_DIR$/AdditionalTasks/AdditionalTasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework10Collections/Homework10Collections.iml" filepath="$PROJECT_DIR$/Homework10Collections/Homework10Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework1OOP/Homework1OOP.iml" filepath="$PROJECT_DIR$/Homework1OOP/Homework1OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework2Simples/Homework2Simples.iml" filepath="$PROJECT_DIR$/Homework2Simples/Homework2Simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework3Calculations/Homework3Calculations.iml" filepath="$PROJECT_DIR$/Homework3Calculations/Homework3Calculations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework4Bytes/Homework4Bytes.iml" filepath="$PROJECT_DIR$/Homework4Bytes/Homework4Bytes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework5Arrays/Homework5Arrays.iml" filepath="$PROJECT_DIR$/Homework5Arrays/Homework5Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework6Racing/Homework6Racing.iml" filepath="$PROJECT_DIR$/Homework6Racing/Homework6Racing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework7Wrapper/Homework7Wrapper.iml" filepath="$PROJECT_DIR$/Homework7Wrapper/Homework7Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework8Logistic(PostOffice)/Homework8Logistic(PostOffice).iml" filepath="$PROJECT_DIR$/Homework8Logistic(PostOffice)/Homework8Logistic(PostOffice).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework9Factory/Homework9Factory.iml" filepath="$PROJECT_DIR$/Homework9Factory/Homework9Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks5Arrays/Homeworks5Arrays.iml" filepath="$PROJECT_DIR$/Homeworks5Arrays/Homeworks5Arrays.iml" />
+    </modules>
+  </component>
+</project>
