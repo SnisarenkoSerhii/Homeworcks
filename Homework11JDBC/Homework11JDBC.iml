@@ -10,10 +10,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Source-IT-master/Source-IT-master/lib/postgresql-9.4-1201.jdbc4.jar!/" />
+          <root url="file://$USER_HOME$/Downloads/Source-IT-master/Source-IT-master/lib" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/Source-IT-master/Source-IT-master/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/Source-IT-master/Source-IT-master/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/Source-IT-master/Source-IT-master/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

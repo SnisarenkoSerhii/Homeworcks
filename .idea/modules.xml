@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdditionalTasks/AdditionalTasks.iml" filepath="$PROJECT_DIR$/AdditionalTasks/AdditionalTasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework10Collections/Homework10Collections.iml" filepath="$PROJECT_DIR$/Homework10Collections/Homework10Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework11JDBC/Homework11JDBC.iml" filepath="$PROJECT_DIR$/Homework11JDBC/Homework11JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework1OOP/Homework1OOP.iml" filepath="$PROJECT_DIR$/Homework1OOP/Homework1OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework2Simples/Homework2Simples.iml" filepath="$PROJECT_DIR$/Homework2Simples/Homework2Simples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework3Calculations/Homework3Calculations.iml" filepath="$PROJECT_DIR$/Homework3Calculations/Homework3Calculations.iml" />
