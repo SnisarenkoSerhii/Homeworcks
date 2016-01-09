@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Sergey on 25.12.2015.
  */
-public class Methods {
+public class DBCommands {
     static final String JDBC_DRIVER = "org.postgresql.Driver";
     static final String DB_URL = "jdbc:postgresql://localhost:5432/GAI";
 

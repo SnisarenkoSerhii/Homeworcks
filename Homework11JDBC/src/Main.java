@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
 
-        Methods m = new Methods();
+        DBCommands m = new DBCommands();
 
         List<String> s = m.showCarByCArOwnerName("Ivanov");
         System.out.println(s.stream().map(str -> str.trim()).collect(Collectors.joining(", ")));
