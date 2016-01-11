@@ -1,5 +1,6 @@
 import java.sql.*;
-import java.util.List;
+import java.sql.Date;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -15,6 +16,58 @@ public class Main {
     static final String PASS = "XAvier";
 
     public static void main(String[] args) throws SQLException {
+
+        Connection conn = null;
+        List<Car> cars = new ArrayList<>();
+        try {
+            //шаг 2: регистрируем драйвер
+            Class.forName(JDBC_DRIVER);
+            //шаг 3: открываем соединение
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            Statement stm = conn.createStatement();
+            ResultSet rs = stm.executeQuery("SELECT * FROM \"Cars\";");
+            System.out.println("Cars");
+            while (rs.next()) {
+                Car car = new Car(rs.getString("carName"),
+                        rs.getString("carBirthday"),
+                        rs.getDate("TODate"),
+                        rs.getString("licensePllate"),
+                        rs.getInt("ownerIdcar"),
+                        rs.getInt("idCars"),
+                        rs.getBoolean("DTP"));
+                cars.add(car);
+            }
+            conn.close();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        List<Person> persons = new ArrayList<>();
+        try {
+            //шаг 2: регистрируем драйвер
+            Class.forName(JDBC_DRIVER);
+            //шаг 3: открываем соединение
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            Statement stm = conn.createStatement();
+            ResultSet rs = stm.executeQuery("SELECT * FROM \"Owner\";");
+            System.out.println("Cars");
+            while (rs.next()) {
+                Person person = new Person(rs.getInt("idOwner"),
+                        rs.getString("surname"),
+                        rs.getString("name"),
+                        rs.getString("middleName"),
+                        rs.getDate("birthday"),
+                        rs.getString("passport"),
+                        rs.getDate("recivePassportDate"),
+                        rs.getString("address"),
+                        rs.getString("driverLicence"),
+                        rs.getInt("idCime"));
+                persons.add(person);
+            }
+            conn.close();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
 
         DBCommands m = new DBCommands();
 

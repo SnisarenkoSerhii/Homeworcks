@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -7,17 +8,19 @@ import java.util.List;
 public class Car {
     private String carName;
     private String carBirthday;
-    private String TODate;
+    private Date TODate;
     private String licensePlate;
     private int ownerId;
-    List<String> cars = new ArrayList<>();
+    private int idCars;
+    private boolean DTP;
 
-    public Car(String carName, String carBirthday, String TODate, String licensePlate, int ownerId, List<String> cars) {
+    public Car(String carName, String carBirthday, Date TODate, String licensePlate, int ownerId, int idCars, boolean DTP) {
         this.carName = carName;
         this.carBirthday = carBirthday;
         this.TODate = TODate;
         this.licensePlate = licensePlate;
         this.ownerId = ownerId;
-        this.cars = cars;
+        this.idCars = idCars;
+        this.DTP = DTP;
     }
 }
